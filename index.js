@@ -28,4 +28,4 @@ module.exports = client;
   require(`./Structures/${handler}`)(client);
 });
 
-client.login(process.env.TOKEN);
+client.login(secrets.TOKEN);
